@@ -22,8 +22,6 @@ const server = http.createServer((req, res) => {
     res.write(data);
     return res.end();
   });
-  //res.writeHead("This is the response from the server");
-  //res.end();
 });
 
 server.listen(8080, () => {
